@@ -12,25 +12,14 @@ header {
   color: white;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 1.4rem;
-}
-
-header p {
-  margin: 4px 0 0 0;
-  font-size: 0.9rem;
-}
-
-/* The map container */
+/* The map area */
 #map {
   height: calc(100vh - 64px); /* full height minus header */
   width: 100%;
 }
 
-/* Leaflet map default styles */
+/* Required Leaflet styles */
 .leaflet-container {
   width: 100%;
   height: 100%;
 }
-
