@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Sudan Charity Map</title>
+  <title>Sudan Nexus</title>
 
-  <!-- Leaflet CSS -->
+  <!-- Leaflet CSS (for the map styling) -->
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -12,28 +12,26 @@
     crossorigin=""
   />
 
+  <!-- Your own CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="app">
-    <div id="sidebar">
-      <h1>Charity Map of Sudan</h1>
-      <p>Click a region to see charities working there.</p>
-      <div id="region-info">
-        <h2>Select a region</h2>
-        <ul id="charity-list"></ul>
-      </div>
-    </div>
-    <div id="map"></div>
-  </div>
+  <header>
+    <h1>Sudan Nexus</h1>
+    <p>An interactive map of charities working in Sudan.</p>
+  </header>
 
-  <!-- Leaflet JS -->
+  <!-- This is where the map will appear -->
+  <div id="map"></div>
+
+  <!-- Leaflet JS (the map library) -->
   <script
     src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""
   ></script>
+
+  <!-- Your own JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
-
